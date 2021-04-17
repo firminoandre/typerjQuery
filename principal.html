@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>TyperCode</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css"></link>
+    <link rel="stylesheet" href="css/estilos.css"></link>
+</head>
+<body>
+    <div class="container">
+    <h3 class="center">TyperCODE</h3>
+    <h5 class="titulo center">Seja bem-vindo ao teste de rapidez</h5>
+    <p class="frase center">Digite essa frase o mais rápido que você puder</p>
+
+    <ul class="informacoes center">
+        <li><span id="tamanho-frase"> X</span> palavras</li>
+        <li><span id="tempo">5</span> segundos</li>
+    </ul>
+
+    <textarea class="campo" rows="5" cols="60"></textarea>
+
+
+    <ul class="informacoes center">
+        <li><span id="caracteres">X</span> caracteres</li>
+        <li><span id="palavras">X</span> palavras</li>
+        <br>
+        <button id="reiniciar">Reiniciar contagem</button>
+    </ul>
+</div>
+
+<section class="placar">
+    <h1 class="center">Placar</h1>
+    <table class="centered bordered">
+        <thead class="center">
+            <tr>
+            <th>Nome</th>
+            <th>Numero de palavras</th>
+            <th>Remover</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>Firmino</td>
+            <td>10</td>
+            <td>
+                <a href='#' class="btnExcluir">
+                    <i>Apagar</i>
+                </a>
+            </td>
+        </tbody>
+    </table>
+</section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
